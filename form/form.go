@@ -12,7 +12,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"ag2/core/uuid"
+	"github.com/alexaron/core/uuid"
 )
 
 var (

@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"ag2/core/view"
+	"github.com/alexaron/core/view"
 )
 
 // TestRender ensures the view is rendered properly.

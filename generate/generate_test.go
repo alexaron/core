@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"ag2/core/generate"
+	"github.com/alexaron/core/generate"
 )
 
 func fileAssertSame(t *testing.T, fileActual, fileExpected string) {

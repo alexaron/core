@@ -81,7 +81,7 @@ import (
 	"strings"
 	"text/template"
 
-	"ag2/core/file"
+	"github.com/alexaron/core/file"
 )
 
 var (

@@ -10,9 +10,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"ag2/core/storage"
-	driver "ag2/core/storage/driver/mysql"
-	"ag2/core/storage/migration"
+	"github.com/alexaron/core/storage"
+	driver "github.com/alexaron/core/storage/driver/mysql"
+	"github.com/alexaron/core/storage/migration"
 	"github.com/jmoiron/sqlx"
 )
 

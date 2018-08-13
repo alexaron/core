@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"ag2/core/session"
+	"github.com/alexaron/core/session"
 
 	"github.com/gorilla/sessions"
 )

@@ -7,8 +7,8 @@ import (
 	"sync"
 	"testing"
 
-	"ag2/core/flash"
-	"ag2/core/view"
+	"github.com/alexaron/core/flash"
+	"github.com/alexaron/core/view"
 )
 
 // Session is an interface for typical sessions

@@ -4,7 +4,7 @@ package xsrf
 import (
 	"net/http"
 
-	"ag2/core/view"
+	"github.com/alexaron/core/view"
 	"github.com/gorilla/csrf"
 )
 

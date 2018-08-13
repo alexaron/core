@@ -3,7 +3,7 @@ package email_test
 import (
 	"testing"
 
-	"ag2/core/email"
+	"github.com/alexaron/core/email"
 )
 
 // TestEmailFail ensures email fails.

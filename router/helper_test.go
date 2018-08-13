@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"testing"
 
-	"ag2/core/router"
+	"github.com/alexaron/core/router"
 )
 
 // middlewareTest1 will modify a form variable.

@@ -8,8 +8,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"ag2/core/view"
-	"ag2/core/xsrf"
+	"github.com/alexaron/core/view"
+	"github.com/alexaron/core/xsrf"
 
 	"github.com/gorilla/csrf"
 )

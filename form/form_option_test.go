@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"ag2/core/form"
+	"github.com/alexaron/core/form"
 )
 
 // TestFormOption ensures input is parsed correctly.

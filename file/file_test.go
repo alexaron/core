@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"ag2/core/file"
+	"github.com/alexaron/core/file"
 )
 
 // TestExists ensures the file exists.

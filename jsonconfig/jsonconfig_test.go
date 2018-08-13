@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"ag2/core/jsonconfig"
+	"github.com/alexaron/core/jsonconfig"
 )
 
 // Info is an example application structure.

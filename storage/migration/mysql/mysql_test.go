@@ -8,9 +8,9 @@ import (
 	"os"
 	"testing"
 
-	"ag2/core/storage"
-	"ag2/core/storage/migration"
-	"ag2/core/storage/migration/mysql"
+	"github.com/alexaron/core/storage"
+	"github.com/alexaron/core/storage/migration"
+	"github.com/alexaron/core/storage/migration/mysql"
 
 	"github.com/jmoiron/sqlx"
 )

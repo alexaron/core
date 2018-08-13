@@ -4,9 +4,9 @@ package storage
 import (
 	"encoding/json"
 
-	"ag2/core/jsonconfig"
-	"ag2/core/storage/driver/mysql"
-	"ag2/core/storage/driver/postgresql"
+	"github.com/alexaron/core/jsonconfig"
+	"github.com/alexaron/core/storage/driver/mysql"
+	"github.com/alexaron/core/storage/driver/postgresql"
 )
 
 // Info contains the database connection information for the different storage.

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"ag2/core/form"
+	"github.com/alexaron/core/form"
 )
 
 // TestFormTextAreaArea ensures text field is repopulated with a value.

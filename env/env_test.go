@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"ag2/core/env"
+	"github.com/alexaron/core/env"
 )
 
 // TestEncodedKey ensures the key is random.

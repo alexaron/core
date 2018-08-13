@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"ag2/core/asset"
+	"github.com/alexaron/core/asset"
 )
 
 func init() {

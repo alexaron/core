@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"ag2/core/uuid"
+	"github.com/alexaron/core/uuid"
 )
 
 // TestGenerate ensures the ID is generated properly.

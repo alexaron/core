@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"ag2/core/router"
+	"github.com/alexaron/core/router"
 
 	"github.com/husobee/vestigo"
 )

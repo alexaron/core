@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"testing"
 
-	"ag2/core/form"
+	"github.com/alexaron/core/form"
 )
 
 // TODO Add a test for Required() and FormFile
