@@ -17,7 +17,6 @@ type Info struct {
 	Folder string
 }
 
-
 // *****************************************************************************
 // FuncMap for Template Packages
 // *****************************************************************************
@@ -36,7 +35,7 @@ func (c Info) Map(baseURI string) template.FuncMap {
 		}
 
 		return template.HTML(`<script type="text/javascript" src="` + path + `"></script>`)
-		
+
 	}
 
 	f["CSS"] = func(fpath, media string) template.HTML {
