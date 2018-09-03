@@ -25,7 +25,7 @@ type ObjectHandlers struct {
 
 func (c Info) Connect() *ObjectHandlers {
 
-	minioClient, err := minio.New(fmt.Sprintf("%v:%v", c.Endpoint, c.Port), c.AccessKey, c.SecretKey, c.Secure)
+	minioClient, err := minio.New(c.Endpoint, c.AccessKey, c.SecretKey, c.Secure)
 	if err != nil {
 		log.Fatalln(err)
 	}
