@@ -17,8 +17,6 @@ type Info struct {
 	Hostname        string
 	Port            int
 	Parameter       string
-	MigrationFolder string
-	Extension       string
 }
 
 // *****************************************************************************
